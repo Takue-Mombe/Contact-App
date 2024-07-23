@@ -18,7 +18,7 @@ import static com.fasterxml.jackson.annotation.JsonInclude.Include.NON_DEFAULT;
 @Getter@Setter
 @AllArgsConstructor@NoArgsConstructor
 @Table(name="contacts")
-@JsonInclude(NON_DEFAULT)
+//@JsonInclude(NON_DEFAULT)
 public class Contact {
 
     @Id
